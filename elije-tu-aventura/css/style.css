@@ -1,0 +1,215 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* General */
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.title {
+    color: #252525;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contexto {
+    color: #252525;
+    text-align: center;
+    font-size: 20px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+body {
+    background-image: url(../assets/background-general.jpg);
+    background-size: cover;
+    background-color: #252525;
+}
+/* Home */
+
+.home {
+    background-image: url(../assets/casa-afuera.jpg);
+    background-size: cover;
+}
+
+.comenzar {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.comenzar input {
+    color: #252525;
+    font-size: 25px;
+
+}
+
+.comenzar input:hover {
+    background-color: #d90429;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Casa */
+
+
+.puerta {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.entrar {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.entrar input {
+    color: #252525;
+    border-radius: 20%;
+    font-size: 25px;
+}
+
+.entrar input:hover {
+    background-color: #d90429;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Sala */
+
+.sala {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.cocina,
+.volver,
+.subir {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.cocina input,
+.volver input,
+.subir input {
+    color: #252525;
+    border-radius: 20%;
+    font-size: 25px;
+}
+
+.cocina input:hover,
+.volver input:hover,
+.subir input:hover {
+    background-color: #d90429;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Cocina */
+
+.cocina {
+    display: flex;
+    justify-content: center;
+}
+
+/* Arriba */
+
+.pasillo {
+    display: flex;
+    justify-content: center;
+}
+
+.hab-mama,
+.tu-hab {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.hab-mama input,
+.tu-hab input {
+    color: #252525;
+    border-radius: 20%;
+    font-size: 25px;
+}
+
+.hab-mama input:hover,
+.tu-hab input:hover {
+    background-color: #d90429;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Tu habitacion */
+
+.habitacion-tuya {
+    display: flex;
+    justify-content: center;
+}
+
+/* Habitacion mama */
+
+.mama {
+    display: flex;
+    justify-content: center;
+}
+
+.ir-vestidor {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.ir-vestidor input {
+    color: #252525;
+    border-radius: 20%;
+    font-size: 25px;
+}
+
+.ir-vestidor input:hover {
+    background-color: #d90429;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Vestidor */
+
+.vestidor {
+    display: flex;
+    justify-content: center;
+}
+
+.final {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.final input {
+    color: #252525;
+    border-radius: 20%;
+    font-size: 25px;
+}
+
+.final input:hover {
+    background-color: #d90429;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 911 */
+
+.finall {
+    display: flex;
+    justify-content: center;
+}
